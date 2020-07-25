@@ -6,7 +6,7 @@ const CardList = ({ robots }) => {
       <Card key={index} id={item.id} email={item.email} name={item.name} />
     );
   });
-  return <div>{cardComponent}</div>;
+  return <div>{cardComponent}asdf</div>;
 };
 
 export default CardList;
